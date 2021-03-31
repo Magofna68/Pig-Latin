@@ -5,8 +5,18 @@ code:
 const word = text.split(" ")
 Expected Output: amount of inputed words
 
+Test: "It should take in a string and output a string array."
+Code:
+const text = "hello everyone";
+pigLatin(text);
+Expected Output: ["hello", "everyone"]
+
 Test: "it should lowercase all letters"
 Code: 
+Expected Output:
+
+Test: "Identify 'qu' within a string"
+Code:
 Expected Output:
 
 Test: "identify vowels"
@@ -25,7 +35,7 @@ Test: "Identify character at index 0"
 Code:
 Expected Output:
 
-Test: 
+Test: if vowel add way to the end
 Code:
 Expected Output:
 
